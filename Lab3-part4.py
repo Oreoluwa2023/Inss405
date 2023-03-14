@@ -1,9 +1,8 @@
-num=input('kindly enter number')
-sum=int(num)
+num = int(input(":Enter Input "))
 
-if(sum % 15)==0:
-    print('Bowie state university')
-elif (sum % 5)==0:
-    print('Bowie State')
-elif (sum % 3)==0:
-    print('Bowie')
+if num % 15 == 0:
+    print("Bowie State University")
+elif num % 5 == 0:
+    print("Bowie State")
+elif num % 3 == 0:
+    print("Bowie")
